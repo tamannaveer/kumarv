@@ -1,0 +1,80 @@
+body{
+
+  font-style: "Montserrat";
+
+}
+
+
+
+.navbar{
+  padding: 2rem 8rem 0.5rem;
+ margin-top: 0;
+ background:  #21295c;
+
+
+}
+
+.dropitem{
+  color:#fff;
+  display:block;
+  background-color: #21295c;
+}
+
+.nav-link{
+  font-size:2rem;
+  font-family: "Montserrat-light";
+  color:  #fff;
+  margin: 0rem 1rem;
+}
+
+ul li{
+       display: inline-block;
+       position: relative;
+       line-height: 21px;
+       text-align: left;
+   }
+   ul li a{
+       display: block;
+       padding: 8px 25px;
+       color: #fff;
+       text-decoration: none;
+   }
+   ul li a:hover{
+       color: #fddb3a;
+
+   }
+   ul li ul.dropdown{
+       min-width: 400%; /* Set width of the dropdown */
+      font-size: 15px;
+       display: none;
+       position: absolute;
+       z-index: 999;
+
+   }
+   ul li:hover ul.dropdown{
+       display: block;	/* Display the dropdown */
+   }
+   ul li ul.dropdown li{
+       display: block;
+     }
+
+.heatimage{
+  margin: 0px 300px;
+
+}
+img{
+  width:800px;
+  height:400px;
+}
+
+
+.heat-details{
+  background-color: #e0e1dd;
+}
+
+h1{
+  padding-top: 10px;
+  color:#21295c;
+
+  text-align: center;
+}

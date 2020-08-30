@@ -1,0 +1,196 @@
+body{
+  font-style:"Montserrat";
+
+
+}
+
+.container-fluid{
+padding:3% 15%;
+margin:0;
+
+}
+
+
+
+.navbar{
+  padding: 2rem 8rem 4.5rem;
+
+
+
+}
+
+
+.nav-link{
+  font-size:2rem;
+  font-family: "Montserrat-light";
+  color:#fff;
+  margin: 0rem 1rem;
+}
+
+ul li{
+       display: inline-block;
+       position: relative;
+       line-height: 21px;
+       text-align: left;
+   }
+   ul li a{
+       display: block;
+       padding: 8px 25px;
+       color: #fff;
+       text-decoration: none;
+   }
+   ul li a:hover{
+       color: #fddb3a;
+
+   }
+   ul li ul.dropdown{
+       min-width: 400%; /* Set width of the dropdown */
+      font-size: 15px;
+       display: none;
+       position: absolute;
+       z-index: 999;
+
+   }
+   ul li:hover ul.dropdown{
+       display: block;	/* Display the dropdown */
+   }
+   ul li ul.dropdown li{
+       display: block;}
+
+
+#title{
+  background-color: #21295c;
+  color: #f2e8cf;
+text-align: left;
+
+}
+
+
+.picture{
+  border-radius: 100%;
+  width:40%;
+  margin:30px 300px 100px;
+
+}
+
+h1{
+  text-align: left;
+  margin-top: 70px;
+
+  font-size: 2rem;
+  font-family:"Courgette";
+}
+
+p{
+  text-align: left;
+
+  color:#767b91;
+  font-size: 1rem;
+  font-style: Ubuntu;
+  line-height: 0;
+}
+
+.title-details{
+  margin-left: 90px;
+  color:#f2e8cf;
+  font-size: 1rem;
+  font-style: Ubuntu;
+}
+#home{
+  background-color: #e0e1dd;
+
+
+}
+
+.home-details{
+  text-align: justify;
+
+  color: #21295c;
+  line-height: 2rem;
+  font-size: 15px;
+  font-family: sans-serif;
+  text-indent: 60px;
+
+}
+
+#research {
+  background-color:#21295c;
+ color:#f2e8cf;
+}
+
+h3{
+
+  text-align: center;
+  color: #f2e8cf;
+  font-family: "sans-serif";
+  font-size: 2rem;
+}
+
+.card-body{
+  line-height: 2rem;
+  font-size: 15px;
+  font-family:"ubuntu";
+  background-color:#e0e1dd;
+  color:#21295c;
+
+}
+
+#research .container-fluid{
+  padding:40px 0px  ;
+}
+.card-header{
+  /* margin:0px;
+  display: block;
+  width: 100%;
+  border:none; */
+  background-color:#21295c ;
+
+}
+
+
+#publications{
+  background-color: #e0e1dd;
+  color: #21295c;
+}
+
+#publications .container-fluid{
+  padding:40px 0px  ;
+  text-align: justify;
+}
+h4
+{
+  text-align: center;
+  font-family: "sans-serif";
+  font-size: 2rem;
+}
+h6{
+  text-align: center;
+  font-family: "sans-serif";
+}
+
+
+#footer{
+  background-color: #FFFFFF;
+  text-align: center;
+
+}
+.social-icon
+{
+  margin:40px 10px;
+
+text-align: center;
+}
+
+.footerpara{
+  font-size: 20px;
+  font-family:"Montserrat-light";
+  text-align: center;
+  line-height: 1.5rem;
+  color:#21295c;
+}
+
+.footerpara1{
+  font-size: 15px;
+  font-family:"Montserrat-light";
+  text-align: center;
+}
